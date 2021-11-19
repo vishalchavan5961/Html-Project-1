@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>photo studio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            /* background-color: lightblue; */
+            background-image: url(https://images.unsplash.com/photo-1527888477750-6fd34fbfa3f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80);
+
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: rgb(77, 176, 201);
+            color: greenyellow;
+            font-size: 3vw;
+        }
+
+        address {
+            text-align: center;
+
+            font-size: 2vw;
+        }
+
+        ol {
+            color: beige;
+        }
+
+        .ul {
+            background-color: black;
+            color: gold;
+            width: 200px;
+            height: 150px;
+            margin: 11px;
+            padding: 23px;
+            border: 20px solid royalblue;
+            border-style: dashed;
+        }
+
+        header {
+            height: 20px;
+            width: 100vw;
+            text-decoration: none;
+            background-color: black;
+            position: sticky;
+            top: 0;
+            padding: 18px
+        }
+
+        nav {
+            font-size: 2vw;
+            
+        }
+
+        hr {
+            position: sticky;
+            top: 57px;
+        }
+        nav a{
+            padding: 0 15px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="/basic/home.html" target="_blank">Our Home Page</a>
+            <a href="/basic/about_us.html" target="_blank">Our About us Page</a>
+            <a href="/basic/contact_us.html" target="_blank">Our Conatct Page</a>
+        </nav>
+    </header>
+    <hr>
+    <address>“If you want to be a better photographer, stand in front of more interesting stuff.”</address>
+    <h1><u>Photoroom </u></h1>
+    <h3>“Taking an image, freezing a moment, reveals how rich reality truly is.”</h3>
+    <figure><a href="/index.html" target="_blank"><img
+                src="https://images.unsplash.com/photo-1596265371388-43edbaadab94?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80"
+                title="my basic web" alt="samp image" height="300px" style="float:right;"></a>
+        <figcaption>Click appropriate button to see images!</figcaption>
+    </figure>
+
+    <!-- <p>Click appropriate button to see images!</p> -->
+    <button type="button" onclick=document.location="https://unsplash.com/images/nature" target="_blank">Nature
+        images</button>
+    <button type="button" onclick=document.location="https://unsplash.com/s/photos/model">Model images</button>
+    <button type="button" onclick=document.location="https://unsplash.com/s/photos/product">Product
+        images</button><br><br>
+    <button type="button" onclick=document.location="https://unsplash.com/s/photos/object">Object images</button>
+    <button type="button" onclick=document.location="https://unsplash.com/s/photos/camera's-images">Camera's
+        images</button>
+    <button type="button" onclick=document.location="https://unsplash.com/s/photos/motivational">Motivational
+        images</button><br>
+    <br>
+    <br><br><br><br>
+
+    <!-- <h5 style="text-align: right;">Click on above image to visit my basic web</h5> -->
+    <div>
+        <h3 style="font-size: 2vw"> Items Every Photographer Should Buy :)</h3>
+        <ol type="i">
+            <li>Prime Lenses</li>
+            <li>Tripod</li>
+            <li>Speedlight</li>
+            <li>External Hard Drive</li>
+            <li>Memory Cards (and Memory Card Holders)</li>
+            <li>Reflector</li>
+            <li>Bag/Carrying Gear</li>
+            <li>Cleaning Supplies</li>
+            <li>Color Checker</li>
+        </ol>
+    </div>
+    <pre>                                                                                                                                               Click on above image to visit my basic web  </pre>
+    <br>
+    <div>
+        <table border="1">
+            <caption>Cameras</caption>
+            <thead>
+                <tr>
+                    <th>Brand</td>
+                    <th>Model</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Canon</td>
+                    <td>2.7</td>
+                    <td>60K</td>
+                </tr>
+                <tr>
+                    <td>nicon</td>
+                    <td>3.9</td>
+                    <td>90K</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <h2>Form which can give u beneficialry info</h2>
+        <form action="form.php">
+
+            <fieldset>
+                <input type="text" placeholder="Enter Your First Name"><br>
+                <input type="text" placeholder="Enter Your Last Name"><br>
+                <input type="date"><br>
+            </fieldset>
+            <button type="button" onclick="alert('Thanks for visiting!')">Click me!</button>
+            <h4>Want a Camera in giveaway?</h4>
+            <label for="referenceida">
+                <input type="radio" name="reference" value="section a" id="referenceida">yes<br></label>
+            <label for="referenceidb">
+                <input type="radio" name="reference" value="section b" id="referenceidb">no<br></label>
+            <label for="referenceidc">
+                <input type="radio" name="reference" value="section c" id="referenceidc" class="red blue">maybe<br>
+            </label>
+            <input type="checkbox" name="membership" id="rollno" class="red">
+            <label for="rollno">Want free mebership?</label><br>
+            <textarea name="explain" id="explain" cols="30" rows="10"
+                placeholder="Why u want to get membership"></textarea><br>
+            <p>select preferred brand</p>
+            <select name="name" id="name">
+                <option>Select</option>
+                <option>canon</option>
+                <option>nicon</option>
+            </select>
+            <input type="submit">
+        </form><br>
+        <br>
+        <br>
+        <div>
+            <figure>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/1WUW-OgBTe0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <figcaption>Vdeo1. Youtube vdeo </figcaption>
+            </figure>
+        </div>
+
+
+    </div>
+    <h4>Please reach us! :)</h4>
+
+    <p style="font-size:48px">
+        &#128512; &#128516; &#128525; &#128151;
+    </p>
+
+</body>
